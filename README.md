@@ -1,0 +1,2 @@
+# JumpGameJS
+Animated simple game 
