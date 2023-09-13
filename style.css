@@ -107,8 +107,9 @@ body {
 }
 .description {
     margin-top: 20px;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: center;
     justify-content: space-around;
     position: relative;
@@ -117,16 +118,27 @@ body {
     padding: 3px;
     background-color: #aaa; 
     border-radius: 15px;
-    font-size: 15px;
-    font-family: 'Caveat', cursive;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.rules {
+    margin-left: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
 .req {
+    margin: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
 }
 .git {
     text-decoration: none;
     color:#fff;
     align-self: center;
     margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+.qr {
+    align-self: center;
 }
